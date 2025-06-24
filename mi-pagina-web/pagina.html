@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trazos y Diseños - Estampados y Bordados Profesionales</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+     <header>
+    <div class="container">
+        <div class="logo-wrapper">
+            <a href="#"><img src="imagenes/logo.png" class="logo" alt="Logo"></a>
+            <div class="logo-container">
+                <h1>Trazos y diseños</h1>
+                <p class="slogan">Sublimación e impreción digital</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+        </header>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Estampados de Calidad con Diseño Único</h2>
+            <p>Transformamos tus ideas en realidad con nuestras técnicas de estampado,bordado y sublimación profesional</p>
+            <a href="#contacto" class="btn">Cotiza tu Proyecto</a>
+        </div>
+    </section>
+    
+    <section id="servicios" class="section">
+    <div class="container">
+        <h2 class="section-title">Nuestros Servicios</h2>
+        <div class="services-grid">
+            <!-- Servicio 1 - Estampado Textil -->
+            <div class="service-card" onclick="openModal('estampado-textil')">
+                <i class="fas fa-tshirt"></i>
+                <h3>Estampado Textil</h3>
+                <p>Estampados en camisetas, sudaderas, gorras y más con la más alta calidad.</p>
+            </div>
+            
+            <!-- Servicio 2 - Productos Promocionales -->
+            <div class="service-card" onclick="openModal('productos-promocionales')">
+                <i class="fas fa-mug-hot"></i>
+                <h3>Productos Promocionales</h3>
+                <p>Personalizamos tazas, termos, llaveros y otros artículos para tu empresa.</p>
+            </div>
+            
+            <!-- Servicio 3 - Diseño Personalizado -->
+            <div class="service-card" onclick="openModal('diseno-personalizado')">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Diseño Personalizado</h3>
+                <p>Nuestros diseñadores crearán el arte perfecto para tu proyecto.</p>
+            </div>
+            
+            <!-- Servicio 4 - Bordado Industrial -->
+            <div class="service-card" onclick="openModal('bordado-industrial')">
+                <i class="fas fa-box-open"></i>
+                <h3>Bordado Industrial</h3>
+                <p>Bordados de alta precisión para uniformes y prendas corporativas.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal para mostrar las imágenes -->
+<div id="imageModal" class="modal">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <h3 id="modal-title"></h3>
+        <div class="modal-gallery" id="modal-gallery">
+            <!-- Las imágenes se insertarán aquí dinámicamente -->
+        </div>
+    </div>
+</div>
+ </section>
+
+    <section id="galeria" class="section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Trabajos</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="imagenes/mamelucos/QJAQ2368.JPG"Proyecto 1"></div>
+                <div class="gallery-item"><img src="imagenes/medias/MEDIA AMERICA.JPG" alt="Proyecto 2"></div>
+                <div class="gallery-item"><img src="imagenes/camisetas en general/PNCG2086.JPG" alt="Proyecto 3"></div>
+                <div class="gallery-item"><img src="imagenes/camisetas en general/CFCN7091.JPG"Proyecto 4"></div>
+                <div class="gallery-item"><img src="imagenes/locales y negocios/THOW8949.JPG" alt="Proyecto 5"></div>
+                <div class="gallery-item"><img src="imagenes/gorras.jpeg" alt="Proyecto 6"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Nosotros</h2>
+                    <p>En Trazos y diseños nos especializamos en estampados,sublimación y bordados  de alta calidad con un enfoque innovador y creativo. Nuestro lema "cada trazo es un proyecto" refleja nuestra filosofía de trabajo: siempre buscando superar expectativas con cada proyecto.</p>
+                    <p>Con más de 10 años de experiencia en el mercado, hemos trabajado con empresas de todos los tamaños, artistas y emprendedores para llevar sus ideas a la realidad a través de nuestro trabajo y dedicación.</p>
+                </div>
+                <div class="about-image">
+                    <img src="imagenes/Targeya-PIXELES-1.gif" alt="Nuestro equipo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contacto" class="section">
+    <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Información de Contacto</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Dirección: Calle 203. 9LB. vijes valle del cauca</p>
+                <p><i class="fas fa-phone"></i> Teléfono: <a href="tel:+573136848645">313 684 8645</a></p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:alejandrotello199758@gmail.com">alejandrotello199758@gmail.com</a></p>
+                <p><i class="fas fa-clock"></i> Horario: Lunes a Sábado 9:00 - 18:00</p>
+                <div class="social-media">
+                    <a href="https://www.facebook.com/share/16QR32adTD/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/alejo97ma" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://wa.me/573136848645" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="https://alejandrotello199758@gmail.com" method="POST">
+                    <!-- Campos ocultos para configuración -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="gracias.html">
+                    <input type="hidden" name="_subject" value="Nuevo mensaje desde tu web">
+                    
+                    <div class="form-group">
+                        <input type="text" name="nombre" placeholder="Nombre" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" name="telefono" placeholder="Teléfono">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="mensaje" placeholder="Cuéntanos sobre tu proyecto" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+  
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Trazos y diseños</h3>
+                    <p>Sublimación e impreción digital</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#galeria">Galería</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Calle 203. 9LB. vijes valle del cauca</p>
+                    <p><i class="fas fa-phone"></i> 313 684 8645 </p>
+                    <p><i class="fas fa-envelope"></i> alejandrotello199758@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Trazos y Diseños Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
